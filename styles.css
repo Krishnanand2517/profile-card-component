@@ -6,6 +6,7 @@
 
 body {
     background-color: var(--dark-cyan);
+    text-align: center;
 }
 
 :root {
@@ -24,6 +25,7 @@ body {
     width: 100vw;
     top: -85vh;
     left: -25vw;
+    z-index: -10;
 }
 
 .bottom-bg {
@@ -35,4 +37,93 @@ body {
     width: 100vw;
     bottom: -100vh;
     right: -45vw;
+    z-index: -10;
+}
+
+.card {
+    width: 325px;
+    height: 58vh;
+    background-color: white;
+    margin: 25vh auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px 0 rgba(61, 61, 61, 0.25);
+}
+
+.card-top {
+    height: 35%;
+    background-image: url("images/bg-pattern-card.svg");
+    border-radius: 10px 10px 0 0;
+}
+
+.profile {
+    color: var(--dark-grayish-blue);
+    border-bottom: solid var(--dark-gray) 1px;
+}
+
+.profile-pic {
+    transform: translateY(-45%);
+    border-radius: 50%;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    background-color: white;
+    padding: 1%;
+}
+
+.name {
+    margin-top: -10%;
+}
+
+.name span {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.location {
+    margin-top: -3%;
+}
+
+.stats {
+    padding: 0 5%;
+    display: flex;
+    color: var(--dark-grayish-blue);
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.stat-head {
+    color: var(--very-dark-desaturated-blue);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -8px;
+}
+
+/* Media Queries */
+
+@media (max-width: 540px) {
+    .top-bg {
+        height: 100vh;
+        width: 100vw;
+        top: -40vh;
+        left: -45vw;
+    }
+
+    .bottom-bg {
+        height: 100vh;
+        width: 100vw;
+        bottom: -60vh;
+        right: -50vw;
+    }
+}
+
+@media (max-width: 940px) {
+    .top-bg {
+        height: 100vh;
+        width: 90vw;
+        top: -50vh;
+        left: -30vw;
+    }
 }

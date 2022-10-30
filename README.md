@@ -16,7 +16,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./)
+![](./profile-card-component.png)
 
 ### Links
 
@@ -31,6 +31,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS3
 
 ### What I learned
+
+This challenged served as a quick refresher for my knowledge about HTML & CSS. After facing some challenges, and some 'Google-ing', I could finally reach the desired result. I got a nice practice and a test of patience and perseverance too.
 
 ## Author
 
